@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>GreenRewards Africa</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    sans: ['Graphik', 'sans-serif'],
+                },
+                extend: {
+                    colors: {
+                        primaryColor: "#497b12",
+                        accentColor: "#36a3ca",
+                        accent2: "#55b0d0",
+                        white: "#fdfdfd",
+                        black: "#141414",
+                        primary2: "#7eb741",
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <header class="bg-primaryColor">
+        <div class="header lg:w-10/12 mx-auto py-4 flex flex-row justify-between items-center">
+            <a href="/" class="text-white font-sans italic text-2xl font-bold">GreenRewards Africa</a>
+            <div class="nav">
+                <ul class="flex flex-row gap-8">
+                    <li><a class="text-white text-xl font-sans font-medium" href="#howitworks">How it Works</a></li>
+                    <li><a class="text-white text-xl font-sans font-medium bg-teal py-4 px-3 rounded-full"
+                            href="#cta">Sign Up Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="lg:w-10/12 mx-auto">
+        <div class="hero mt-12 grid grid-cols-2 gap-8">
+            <div class="details mt-10">
+                <h1 class="font-bold text-3xl font-sans">Embrace a Sustainable Future</h1>
+                <h3 class="text-3xl font-medium my-5 italic">Turn eco-friendly actions into rewarding experiences.</h3>
+                <p class="leading-8 font-sans text-xl my-3"><strong class="text-primary2 font-bold">Earn & Redeem:</strong> Engage in sustainable practices and redeem points for exciting rewards.</p>
+                <p class="leading-8 font-sans text-xl my-3"><strong class="text-primary2 font-bold">Explore Green Initiatives:</strong> Discover a variety of eco-friendly activities, investments, and businesses.</p>
+                <p class="leading-8 font-sans text-xl mb-16 my-3"><strong class="text-primary2 font-bold">Your Sustainable Lifestyle:</strong> Choose rewards aligned with your commitment to a green economy.</p>
+            
+                <a href="/signup" class="bg-primaryColor text-base text-center py-4 px-4 rounded-full font-bold font-sans text-white">Start Your Green Journey Now!</a>
+            </div>
+            
+            <img src="images/27.jpg" class="w-full object-cover -mt-10" alt="Image Alt Text">
+        </div>
+        <br>     
+        <hr>
+<br>
+
+        <section id="howitworks">
+            <h1 class="text-4xl font-sans text-primaryColor text-center font-bold my-6">How It Works!</h1>
+            <div class="how grid place-items-center">
+                <ol class="">
+                    <li class="leading-8 text-xl font-sans">1. Sign up on GreenRewards Africa to create your eco-friendly profile.</li>
+                    <li class="leading-8 text-xl font-sans">2. Engage in sustainable practices, such as green investments and eco-friendly lifestyle choices.</li>
+                    <li class="leading-8 text-xl font-sans">3. Earn points for your positive contributions to the green ESG space.</li>
+                    <li class="leading-8 text-xl font-sans">4. Explore diverse rewards including exclusive offers, discounts, and more.</li>
+                    <li class="leading-8 text-xl font-sans">5. Redeem your points for exciting rewards that align with your eco-conscious values.</li>
+                </ol>
+            </div>
+        </section>   
+        <br>     
+        <hr>
+<br>
+        <section id="cta" class=" py-12">
+            <div class="cta-content lg:w-10/12 mx-auto text-center text-teal">
+                <h2 class="text-4xl font-sans font-bold mb-4">Join GreenRewards Africa Today!</h2>
+                <p class="text-lg font-sans mb-6">Start earning rewards for your green initiatives and contribute to a sustainable future.</p>
+                <a href="/signup" class="bg-primaryColor text-lg py-3 px-6 rounded-full font-bold font-sans text-white hover:bg-primary2">Sign Up Now</a>
+            </div>
+        </section>
+        
+
+    </main>
+
+</body>
+</html>
